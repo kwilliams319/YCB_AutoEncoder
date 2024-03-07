@@ -53,4 +53,4 @@ for epoch in range(num_epochs):
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {epoch_loss:.8f}')
 
     # Save the model checkpoint
-    torch.save(autoencoder.state_dict(), f'YCB/autoencoder_lin.pth')
+    torch.save(autoencoder.state_dict(), f'YCB/autoencoder.pth')
